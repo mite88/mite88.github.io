@@ -1,65 +1,99 @@
-# Project Title / 프로젝트 이름
+# 🍥Fuwari  
+![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
+![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-saicaca%2Ffuwari-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/saicaca/fuwari)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_shield&issueType=license)
 
-**[뱃지나 프로젝트에 관한 이미지들이 이 위치에 들어가면 좋습니다]**  
-One Paragraph of project description goes here / 프로젝트의 전반적인 내용에 대한 요약을 여기에 적습니다
+A static blog template built with [Astro](https://astro.build).
 
-## Getting Started / 어떻게 시작하나요?
+[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)
 
-이 곳에서 설치에 관련된 이야기를 해주시면 좋습니다.
+![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
-### Prerequisites / 선행 조건
+🌏 README in
+[**中文**](https://github.com/saicaca/fuwari/blob/main/docs/README.zh-CN.md) /
+[**日本語**](https://github.com/saicaca/fuwari/blob/main/docs/README.ja.md) /
+[**한국어**](https://github.com/saicaca/fuwari/blob/main/docs/README.ko.md) /
+[**Español**](https://github.com/saicaca/fuwari/blob/main/docs/README.es.md) /
+[**ไทย**](https://github.com/saicaca/fuwari/blob/main/docs/README.th.md) /
+[**Tiếng Việt**](https://github.com/saicaca/fuwari/blob/main/docs/README.vi.md) /
+[**Bahasa Indonesia**](https://github.com/saicaca/fuwari/blob/main/docs/README.id.md) (Provided by the community and may not always be up-to-date)
 
-아래 사항들이 설치가 되어있어야합니다.
+## ✨ Features
 
+- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
+- [x] Smooth animations and page transitions
+- [x] Light / dark mode
+- [x] Customizable theme colors & banner
+- [x] Responsive design
+- [x] Search functionality with [Pagefind](https://pagefind.app/)
+- [x] [Markdown extended features](https://github.com/saicaca/fuwari?tab=readme-ov-file#-markdown-extended-syntax)
+- [x] Table of contents
+- [x] RSS feed
+
+## 🚀 Getting Started
+
+1. Create your blog repository:
+    - [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
+    - Or run one of the following commands:
+       ```sh
+       npm create fuwari@latest
+       yarn create fuwari
+       pnpm create fuwari@latest
+       bun create fuwari@latest
+       deno run -A npm:create-fuwari@latest
+       ```
+2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
+    - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
+3. Edit the config file `src/config.ts` to customize your blog.
+4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
+5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
+
+## 📝 Frontmatter of Posts
+
+```yaml
+---
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
+---
 ```
-예시
-```
 
-### Installing / 설치
+## 🧩 Markdown Extended Syntax
 
-아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
+In addition to Astro's default support for [GitHub Flavored Markdown](https://github.github.com/gfm/), several extra Markdown features are included:
 
-```
-예시
-```
+- Admonitions ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#admonitions))
+- GitHub repository cards ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#github-repository-cards))
+- Enhanced code blocks with Expressive Code ([Preview](https://fuwari.vercel.app/posts/expressive-code/) / [Docs](https://expressive-code.com/))
 
-## Running the tests / 테스트의 실행
+## ⚡ Commands
 
-어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
+All commands are run from the root of the project, from a terminal:
 
-### 테스트는 이런 식으로 동작합니다
+| Command                    | Action                                              |
+|:---------------------------|:----------------------------------------------------|
+| `pnpm install`             | Installs dependencies                               |
+| `pnpm dev`                 | Starts local dev server at `localhost:4321`         |
+| `pnpm build`               | Build your production site to `./dist/`             |
+| `pnpm preview`             | Preview your build locally, before deploying        |
+| `pnpm check`               | Run checks for errors in your code                  |
+| `pnpm format`              | Format your code using Biome                        |
+| `pnpm new-post <filename>` | Create a new post                                   |
+| `pnpm astro ...`           | Run CLI commands like `astro add`, `astro check`    |
+| `pnpm astro --help`        | Get help using the Astro CLI                        |
 
-왜 이렇게 동작하는지, 설명합니다
+## ✏️ Contributing
 
-```
-예시
-```
+Check out the [Contributing Guide](https://github.com/saicaca/fuwari/blob/main/CONTRIBUTING.md) for details on how to contribute to this project.
 
-### 테스트는 이런 식으로 작성하시면 됩니다
+## 📄 License
 
-```
-예시
-```
+This project is licensed under the MIT License.
 
-## Deployment / 배포
-
-Add additional notes about how to deploy this on a live system / 라이브 시스템을 배포하는 방법
-
-## Built With / 누구랑 만들었나요?
-
-* [이름](링크) - 무엇 무엇을 했어요
-* [Name](Link) - Create README.md
-
-## Contributiong / 기여
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. / [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) 를 읽고 이에 맞추어 pull request 를 해주세요.
-
-## License / 라이센스
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE.md 파일을 참고하세요.
-
-## Acknowledgments / 감사의 말
-
-* Hat tip to anyone whose code was used / 코드를 사용한 모든 사용자들에게 팁
-* Inspiration / 영감
-* etc / 기타
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)
