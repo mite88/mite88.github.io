@@ -22,7 +22,7 @@ title: "IT Resume & Portfolio"
 
 ---
 
-## 💼 Work Experience (총 경력 4년 10개월)
+## 💼 Work Experience (총 경력 6년 5개월)
 
 ### **와우커뮤니케이션(주)** | 연구원 (2022.09 – 2025.09)
 * **주요 업무:** Spring Framework 기반 웹 서비스 개발 및 운영 총괄
@@ -56,6 +56,13 @@ title: "IT Resume & Portfolio"
 지속적인 학습을 기록하며 공유하고 있습니다.
 * 🧠 [DeepLearning Wiki (모두의 딥러닝 학습 기록)](https://deeplearning-wiki.pages.dev/%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/)
 * 📝 [Obsidian Personal Note (개인 지식 아카이브)](https://obsidian-custom.pages.dev/)
+
+<center>
+    <iframe 
+        src="https://indify.co/widgets/live/button/qf39qD4FDaA2yAgx4kuk" 
+        style="border: none; width: 100%; height: 300px;">
+    </iframe>
+</center>
 
 ---
 
