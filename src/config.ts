@@ -49,15 +49,16 @@ export const navBarConfig: NavBarConfig = {
 			url: "https://github.com/mite88", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
+		{ name: 'Obsidian Note', url: 'https://obsidian-custom.pages.dev/',external: true, },
 		{ name: 'DeepLearning Wiki', url: 'https://deeplearning-wiki.pages.dev/%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/',external: true, },
-    	{ name: 'Obsidian Note', url: 'https://obsidian-custom.pages.dev/',external: true, },
+    	
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/102147365.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: '전옥주',
-  	bio: '성실함으로 쌓아온 코드의 신뢰, 5년 차 풀스택 개발자 전옥주입니다.',
+  	bio: '성실함으로 쌓아온 코드의 신뢰, 6년 차 풀스택 개발자 전옥주입니다.',
 	links: [
 		{
 		name: 'GitHub',
@@ -71,14 +72,15 @@ export const profileConfig: ProfileConfig = {
 		url: 'mailto:ijuju88@naver.com',
 		},
 		{
-		name: 'DeepLearning Wiki',
-		icon: 'fa6-solid:book',
-		url: 'https://deeplearning-wiki.pages.dev/%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/',
-		},
-		{
 		name: 'Obsidian Note',
 		icon: 'fa6-solid:book',
 		url: 'https://obsidian-custom.pages.dev/',
+		},
+		{
+		name: 'DeepLearning Wiki',
+		icon: 'fa6-solid:book',
+		url: 'https://deeplearning-wiki.pages.dev/%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/',
+		
 		},
 	],
 };

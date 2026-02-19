@@ -2,7 +2,7 @@
 title: "종로문화재단 뉴미디어 플랫폼 구축"
 published: 2025-09-25
 description: "종로구 문화예술 정보 집약 플랫폼 구축 (예약 제외 전반적 기능 구현)"
-image: "../../assets/images/web2_1_3.png"
+image: "../../../assets/images/web2_1_3.png"
 tags: ["Java", "eGovFrame", "JSP", "MySQL", "GIS", "SI"]
 category: "Project"
 draft: false
@@ -34,7 +34,7 @@ draft: false
 * 카테고리별(공연, 전시, 행사) 필터링 및 검색 기능 개발
 * DB 최적화를 통해 다량의 콘텐츠 이미지 로딩 속도 개선
 
-| ![메인화면](../../assets/images/web2_1_1.png) | ![문화예술 목록](../../assets/images/web2_1_2.png) |
+| ![메인화면](../../../assets/images/web2_1_1.png) | ![문화예술 목록](../../../assets/images/web2_1_2.png) |
 | :---: | :---: |
 | ▲ 플랫폼 메인 화면 | ▲ 문화예술 콘텐츠 목록 페이지 |
 
@@ -46,7 +46,7 @@ draft: false
 * 특정 동/지역 선택 시 해당 지역의 콘텐츠만 마커로 표시하는 필터링 로직 구현
 * 사용자 위치 기반 주변 시설 추천 기능 연동
 
-| ![종로 아트맵](../../assets/images/web2_1_3.png)|
+| ![종로 아트맵](../../../assets/images/web2_1_3.png)|
 | :---: |
 | ▲ 종로 아트맵: 지도 API를 활용한 위치 기반 콘텐츠 제공 (상단 위주 노출) |
 
@@ -58,7 +58,7 @@ draft: false
 * **채용/공지사항:** 게시글 등록, 수정, 삭제(CRUD) 및 페이징 처리가 포함된 게시판 로직 개발
 * **반응형 웹:** 다양한 디바이스(PC, 태블릿, 모바일)에서 깨짐 없이 보이는 반응형 레이아웃 적용
 
-| ![채용공고 리스트](../../assets/images/web2_1_4.png) | ![관광정보 갤러리](../../assets/images/web2_1_5.png) |
+| ![채용공고 리스트](../../../assets/images/web2_1_4.png) | ![관광정보 갤러리](../../../assets/images/web2_1_5.png) |
 | :---: | :---: |
 | ▲ 공지 및 채용정보 게시판 | ▲ 관광 핫플레이스 갤러리 |
 

@@ -2,7 +2,7 @@
 title: "서울교통공사 챗봇 재학습 및 프로세스 자동화 연동"
 published: 2023-12-30
 description: "직원/대민용 챗봇 고도화 및 SAP 연동 API 개발, 시스템 유지보수"
-image : "../../assets/images/web2_3_1.png"
+image : "../../../assets/images/web2_3_1.png"
 tags: ["Java", "Spring Boot", "SAP", "REST API", "Chatbot", "SI"]
 category: "Project"
 draft: false
@@ -37,7 +37,7 @@ draft: false
 * 대민용(고객)과 직원용 챗봇의 요청을 분기 처리하여 보안성 및 효율성 확보
 * JSON 포맷을 활용한 경량화된 데이터 통신 구현으로 응답 속도 개선
 
-![서울교통공사 챗봇 또타](../../assets/images/web2_3_1.png)
+![서울교통공사 챗봇 또타](../../../assets/images/web2_3_1.png)
 *<center>▲ 서울교통공사 공식 챗봇 '또타' 대화 화면</center>*
 
 <br>
