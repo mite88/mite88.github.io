@@ -58,7 +58,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/102147365.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: '전옥주',
-  	bio: '성실함으로 쌓아온 코드의 신뢰, 6년 차 풀스택 개발자 전옥주입니다.',
+  	bio: '성실함으로 쌓아온 코드의 신뢰, 6년 2개월 차 풀스택 개발자 전옥주입니다.',
 	links: [
 		{
 		name: 'GitHub',
