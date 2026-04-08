@@ -12,7 +12,6 @@ draft: false
 * **주제:** 1인 가구 주거 비용 최적화 및 안전 인프라 분석을 통한 맞춤형 주거지 추천 플랫폼 
 * **목표:** 서울시 전역을 500m 격자 단위로 세분화하여 미래 시세를 예측하고, 인프라 대비 저평가된 **'가성비(VFM) 지역'** 발굴 
 * **개발 기간:** 2026.01.22 ~ 2026.02.04 
-* **팀명:** 어쩌다 이지경 (홍현기, 김학범, 전옥주, 이하정) 
 * **배포 URL:** <a href="https://seoul-real-estate-vfm-search-jdhcgptph8zj2d6vpvjmzc.streamlit.app/" target="_blank">🌐 Streamlit 실시간 서비스 바로가기</a>
 
 ---
