@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getPostUrlBySlug } from "@utils/url-utils";
+import PostCard from "./PostCard.astro";
+
+interface Props {
+	posts: CollectionEntry<"posts">[];
+	emptyText?: string;
+}
+
+const { posts, emptyText = "내용없음" } = Astro.props;
+
+let delay = 0;
+const interval = 50;
+---
+
+{posts.length > 0 ? (
+    <div class="transition flex flex-col rounded-[var(--radius-large)] bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4">
+        {posts.map((entry) => (
+            <PostCard
+                    entry={entry}
+                    title={entry.data.title}
+                    tags={entry.data.tags}
+                    category={entry.data.category}
+                    published={entry.data.published}
+                    updated={entry.data.updated}
+                    url={getPostUrlBySlug(entry.slug)}
+                    image={entry.data.image}
+                    description={entry.data.description}
+                    draft={entry.data.draft}
+                    class:list="onload-animation"
+                    style={`animation-delay: calc(var(--content-delay) + ${delay++ * interval}ms);`}
+            ></PostCard>
+        ))}
+    </div>
+) : (
+    <div class="card-base px-8 py-10 text-center text-50 font-bold onload-animation">
+        {emptyText}
+    </div>
+)}

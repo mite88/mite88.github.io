@@ -3,6 +3,26 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
 
+export const featuredProjectSlugs = [
+	"portfolio/2024-07-31-chatbot",
+	"portfolio/2026-07-01-snackdeal",
+	"portfolio/2026-08-01-frontier",
+];
+
+export const otherProjectSlugs = [
+	"ai_Study/portfolio-ai3",
+	"ai_Study/portfolio-ai2",
+	"ai_Study/portfolio-ai1",
+	"portfolio/2025-09-25-jongno-platform",
+	"portfolio/2024-05-27-jongno-sajang",
+	"portfolio/2023-12-30-seoulmetro-chatbot",
+	"portfolio/portfolio-web1",
+];
+
+function getFeaturedProjectRank(slug: string): number {
+	return featuredProjectSlugs.findIndex((featuredSlug) => slug === featuredSlug);
+}
+
 // // Retrieve posts and sort them by publication date
 async function getRawSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
@@ -10,6 +30,15 @@ async function getRawSortedPosts() {
 	});
 
 	const sorted = allBlogPosts.sort((a, b) => {
+		const rankA = getFeaturedProjectRank(a.slug);
+		const rankB = getFeaturedProjectRank(b.slug);
+
+		if (rankA !== -1 || rankB !== -1) {
+			if (rankA === -1) return 1;
+			if (rankB === -1) return -1;
+			return rankA - rankB;
+		}
+
 		const dateA = new Date(a.data.published);
 		const dateB = new Date(b.data.published);
 		return dateA > dateB ? -1 : 1;

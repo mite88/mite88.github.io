@@ -1,0 +1,18 @@
+---
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+import ProjectPostList from "@components/ProjectPostList.astro";
+import { getCollection } from "astro:content";
+import { featuredProjectSlugs } from "@utils/content-utils";
+
+const allPosts = await getCollection("posts", ({ data }) => {
+	return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+const posts = featuredProjectSlugs
+	.map((slug) => allPosts.find((post) => post.slug === slug))
+	.filter((post) => post !== undefined);
+---
+
+<MainGridLayout title="주요 프로젝트">
+    <ProjectPostList posts={posts} emptyText="내용없음"></ProjectPostList>
+</MainGridLayout>

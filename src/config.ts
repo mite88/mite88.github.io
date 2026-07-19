@@ -43,15 +43,26 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
+		{
+			name: "프로젝트",
+			url: "/projects/",
+			children: [
+				{
+					name: "주요 프로젝트",
+					url: "/projects/main/",
+				},
+				{
+					name: "기타 프로젝트",
+					url: "/projects/other/",
+				},
+			],
+		},
 		LinkPreset.About,
 		{
 			name: "GitHub",
 			url: "https://github.com/mite88", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
-		{ name: 'Obsidian Note', url: 'https://obsidian-custom.pages.dev/',external: true, },
-		{ name: 'DeepLearning Wiki', url: 'https://deeplearning-wiki.pages.dev/%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/',external: true, },
-    	
 	],
 };
 
